@@ -14,6 +14,11 @@
 		5E389C3229D8B6AB00FC8B4B /* String+HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E389C2F29D8B68A00FC8B4B /* String+HTML.swift */; };
 		5E389C3329D8B6AB00FC8B4B /* String+Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E389C2C29D8B68A00FC8B4B /* String+Class.swift */; };
 		5E389C3B29D8B6D800FC8B4B /* Log4S.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E389C3A29D8B6D800FC8B4B /* Log4S.swift */; };
+		5E51556029EE7680009B68EA /* swiftformat.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5E51555D29EE7680009B68EA /* swiftformat.sh */; };
+		5E51556129EE7680009B68EA /* xcodebuilds.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5E51555E29EE7680009B68EA /* xcodebuilds.sh */; };
+		5E51556229EE7680009B68EA /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5E51555F29EE7680009B68EA /* build.sh */; };
+		5E51556429EE7687009B68EA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5E51556329EE7687009B68EA /* README.md */; };
+		5E51556629EE7692009B68EA /* codecoverage.yml in Resources */ = {isa = PBXBuildFile; fileRef = 5E51556529EE7692009B68EA /* codecoverage.yml */; };
 		5E7711B629E15CDE002E1883 /* StreamURLFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7711B529E15CDE002E1883 /* StreamURLFactory.swift */; };
 		5E7711B829E15D87002E1883 /* StreamURLFactoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7711B729E15D87002E1883 /* StreamURLFactoryTest.swift */; };
 		5E7711BA29E15FA7002E1883 /* TestModelSupplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7711B929E15FA7002E1883 /* TestModelSupplier.swift */; };
@@ -45,6 +50,11 @@
 		5E44E6D829E16A0C00DACC58 /* FloatplaneApp_Models.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FloatplaneApp_Models.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E44E6DA29E16A1A00DACC58 /* FloatplaneApp_Models.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FloatplaneApp_Models.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E44E6DE29E16A3700DACC58 /* FloatplaneApp_Models.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FloatplaneApp_Models.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E51555D29EE7680009B68EA /* swiftformat.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = swiftformat.sh; sourceTree = "<group>"; };
+		5E51555E29EE7680009B68EA /* xcodebuilds.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = xcodebuilds.sh; sourceTree = "<group>"; };
+		5E51555F29EE7680009B68EA /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
+		5E51556329EE7687009B68EA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		5E51556529EE7692009B68EA /* codecoverage.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = codecoverage.yml; path = .github/workflows/codecoverage.yml; sourceTree = SOURCE_ROOT; };
 		5E7711B529E15CDE002E1883 /* StreamURLFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamURLFactory.swift; sourceTree = "<group>"; };
 		5E7711B729E15D87002E1883 /* StreamURLFactoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamURLFactoryTest.swift; sourceTree = "<group>"; };
 		5E7711B929E15FA7002E1883 /* TestModelSupplier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModelSupplier.swift; sourceTree = "<group>"; };
@@ -77,6 +87,7 @@
 		5E389BFF29D8B67900FC8B4B = {
 			isa = PBXGroup;
 			children = (
+				5E51555C29EE7680009B68EA /* scripts */,
 				5E389C0B29D8B67900FC8B4B /* FloatplaneApp-Utilities */,
 				5E389C1729D8B67900FC8B4B /* FloatplaneApp-UtilitiesTests */,
 				5E389C0A29D8B67900FC8B4B /* Products */,
@@ -115,6 +126,18 @@
 				5E8C13FF29E3EF130084F20D /* Log4STest.swift */,
 			);
 			path = "FloatplaneApp-UtilitiesTests";
+			sourceTree = "<group>";
+		};
+		5E51555C29EE7680009B68EA /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				5E51556329EE7687009B68EA /* README.md */,
+				5E51555D29EE7680009B68EA /* swiftformat.sh */,
+				5E51555E29EE7680009B68EA /* xcodebuilds.sh */,
+				5E51556529EE7692009B68EA /* codecoverage.yml */,
+				5E51555F29EE7680009B68EA /* build.sh */,
+			);
+			path = scripts;
 			sourceTree = "<group>";
 		};
 		5E7711BB29E15FAE002E1883 /* Mocks */ = {
@@ -238,7 +261,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E51556129EE7680009B68EA /* xcodebuilds.sh in Resources */,
+				5E51556229EE7680009B68EA /* build.sh in Resources */,
+				5E51556429EE7687009B68EA /* README.md in Resources */,
 				5E389C0E29D8B67900FC8B4B /* FloatplaneApp-Utilities.docc in Resources */,
+				5E51556029EE7680009B68EA /* swiftformat.sh in Resources */,
+				5E51556629EE7692009B68EA /* codecoverage.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
