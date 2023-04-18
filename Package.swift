@@ -40,7 +40,7 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/curiousurick/FloatplaneApp-Models",
+            url: "https://github.com/curiousurick/FloatplaneApp-Models.git",
             branch: "main"
         ),
         .package(
