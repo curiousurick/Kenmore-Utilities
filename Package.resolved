@@ -2,8 +2,8 @@
   "object": {
     "pins": [
       {
-        "package": "FloatplaneApp-Models",
-        "repositoryURL": "https://github.com/curiousurick/FloatplaneApp-Models",
+        "package": "Kenmore-Models",
+        "repositoryURL": "https://github.com/curiousurick/Kenmore-Models",
         "state": {
           "branch": "main",
           "revision": "e8b4beb8edb6614143bec2015d857e2c0aa5dce3",

@@ -26,7 +26,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "FloatplaneApp-Utilities",
+    name: "Kenmore-Utilities",
     platforms: [
         .macOS(.v12),
         .iOS(.v15),
@@ -34,13 +34,13 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "FloatplaneApp-Utilities",
-            targets: ["FloatplaneApp-Utilities"]
+            name: "Kenmore-Utilities",
+            targets: ["Kenmore-Utilities"]
         ),
     ],
     dependencies: [
         .package(
-            url: "https://github.com/curiousurick/FloatplaneApp-Models.git",
+            url: "https://github.com/curiousurick/Kenmore-Models.git",
             branch: "main"
         ),
         .package(
@@ -50,18 +50,18 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "FloatplaneApp-Utilities",
+            name: "Kenmore-Utilities",
             dependencies: [
-                "FloatplaneApp-Models",
+                "Kenmore-Models",
                 .product(name: "Logging", package: "swift-log"),
             ],
-            path: "FloatplaneApp-Utilities",
+            path: "Kenmore-Utilities",
             exclude: []
         ),
         .testTarget(
-            name: "FloatplaneApp-UtilitiesTests",
-            dependencies: ["FloatplaneApp-Utilities"],
-            path: "FloatplaneApp-UtilitiesTests",
+            name: "Kenmore-UtilitiesTests",
+            dependencies: ["Kenmore-Utilities"],
+            path: "Kenmore-UtilitiesTests",
             exclude: [],
             resources: []
         ),

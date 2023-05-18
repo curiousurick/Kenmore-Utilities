@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "floatplaneapp-models",
+      "identity" : "kenmore-models",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/curiousurick/FloatplaneApp-Models.git",
+      "location" : "git@github.com:curiousurick/Kenmore-Models.git",
       "state" : {
         "branch" : "main",
-        "revision" : "e8b4beb8edb6614143bec2015d857e2c0aa5dce3"
+        "revision" : "eae4a343c12be17f7d8b6e153e29525775a570f3"
       }
     },
     {

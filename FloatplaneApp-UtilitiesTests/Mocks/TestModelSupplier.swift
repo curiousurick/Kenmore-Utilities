@@ -20,7 +20,7 @@
 //
 
 import Foundation
-import FloatplaneApp_Models
+import Kenmore_Models
 
 enum TestingError: Error, Equatable {
     case reallyBad
@@ -153,9 +153,11 @@ enum TestModelSupplier {
     static let updatedAt = Date()
     static let userString = "user"
     static let userNotificationSettings = UserNotificationSetting(
-        contentEmail: contentEmail, contentFirebase: contentFirebase, createdAt: createdAt,
-        creator: creatorString, creatorMessageEmail: creatorMessageEmail, id: id,
-        updatedAt: updatedAt, user: userString
+        contentEmail: contentEmail,
+        contentFirebase: contentFirebase,
+        creator: creatorString,
+        creatorMessageEmail: creatorMessageEmail,
+        user: userString
     )
     static let creatorResponseObject = CreatorListResponse.CreatorResponseObject(
         creator: baseCreator,

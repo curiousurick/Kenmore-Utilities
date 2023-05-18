@@ -1,4 +1,4 @@
-name: FloatplaneApp-Utilities Build Workflow
+name: Kenmore-Utilities Build Workflow
 
 on:
   push:

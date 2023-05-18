@@ -20,7 +20,7 @@
 //
 
 import Foundation
-import FloatplaneApp_Models
+import Kenmore_Models
 
 public protocol StreamURLFactory {
     func create(deliveryKey: DeliveryKey, qualityLevel: QualityLevel) -> URL

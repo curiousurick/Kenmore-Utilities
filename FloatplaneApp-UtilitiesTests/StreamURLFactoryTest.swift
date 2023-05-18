@@ -20,8 +20,8 @@
 //
 
 import XCTest
-import FloatplaneApp_Models
-@testable import FloatplaneApp_Utilities
+import Kenmore_Models
+@testable import Kenmore_Utilities
 
 class StreamURLFactoryTest: XCTestCase {
     private var subject: StreamURLFactoryImpl!

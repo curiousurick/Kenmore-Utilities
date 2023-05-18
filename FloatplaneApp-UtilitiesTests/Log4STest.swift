@@ -21,7 +21,7 @@
 
 import XCTest
 import Foundation
-@testable import FloatplaneApp_Utilities
+@testable import Kenmore_Utilities
 
 class Log4STest: XCTestCase {
     private var subject: Log4S!

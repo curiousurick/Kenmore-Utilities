@@ -10,15 +10,15 @@
 		5E1FD71729DAB0100015AE6F /* String+ClassTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FD71629DAB0100015AE6F /* String+ClassTest.swift */; };
 		5E1FD71E29DAB6B00015AE6F /* String+HTMLTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FD71D29DAB6B00015AE6F /* String+HTMLTest.swift */; };
 		5E389C0E29D8B67900FC8B4B /* FloatplaneApp-Utilities.docc in Resources */ = {isa = PBXBuildFile; fileRef = 5E389C0D29D8B67900FC8B4B /* FloatplaneApp-Utilities.docc */; };
-		5E389C1429D8B67900FC8B4B /* FloatplaneApp_Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E389C0929D8B67900FC8B4B /* FloatplaneApp_Utilities.framework */; };
+		5E389C1429D8B67900FC8B4B /* Kenmore_Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E389C0929D8B67900FC8B4B /* Kenmore_Utilities.framework */; };
 		5E389C3229D8B6AB00FC8B4B /* String+HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E389C2F29D8B68A00FC8B4B /* String+HTML.swift */; };
 		5E389C3329D8B6AB00FC8B4B /* String+Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E389C2C29D8B68A00FC8B4B /* String+Class.swift */; };
 		5E389C3B29D8B6D800FC8B4B /* Log4S.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E389C3A29D8B6D800FC8B4B /* Log4S.swift */; };
 		5E7711B629E15CDE002E1883 /* StreamURLFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7711B529E15CDE002E1883 /* StreamURLFactory.swift */; };
 		5E7711B829E15D87002E1883 /* StreamURLFactoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7711B729E15D87002E1883 /* StreamURLFactoryTest.swift */; };
 		5E7711BA29E15FA7002E1883 /* TestModelSupplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7711B929E15FA7002E1883 /* TestModelSupplier.swift */; };
-		5E81C73529EE504E009BB58B /* FloatplaneApp-Models in Frameworks */ = {isa = PBXBuildFile; productRef = 5E81C73429EE504E009BB58B /* FloatplaneApp-Models */; };
 		5E8C140029E3EF130084F20D /* Log4STest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8C13FF29E3EF130084F20D /* Log4STest.swift */; };
+		5EBA28202A15DA5600F673BC /* Kenmore-Models in Frameworks */ = {isa = PBXBuildFile; productRef = 5EBA281F2A15DA5600F673BC /* Kenmore-Models */; };
 		5EFD929529D90CA0007E8374 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = 5EFD929429D90CA0007E8374 /* Logging */; };
 /* End PBXBuildFile section */
 
@@ -36,9 +36,9 @@
 		5E08F49429E1355D003C3694 /* FloatplaneApp_Models.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FloatplaneApp_Models.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1FD71629DAB0100015AE6F /* String+ClassTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ClassTest.swift"; sourceTree = "<group>"; };
 		5E1FD71D29DAB6B00015AE6F /* String+HTMLTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+HTMLTest.swift"; sourceTree = "<group>"; };
-		5E389C0929D8B67900FC8B4B /* FloatplaneApp_Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FloatplaneApp_Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E389C0929D8B67900FC8B4B /* Kenmore_Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kenmore_Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E389C0D29D8B67900FC8B4B /* FloatplaneApp-Utilities.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = "FloatplaneApp-Utilities.docc"; sourceTree = "<group>"; };
-		5E389C1329D8B67900FC8B4B /* FloatplaneApp-UtilitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FloatplaneApp-UtilitiesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E389C1329D8B67900FC8B4B /* Kenmore-UtilitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kenmore-UtilitiesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E389C2C29D8B68A00FC8B4B /* String+Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Class.swift"; sourceTree = "<group>"; };
 		5E389C2F29D8B68A00FC8B4B /* String+HTML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+HTML.swift"; sourceTree = "<group>"; };
 		5E389C3A29D8B6D800FC8B4B /* Log4S.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log4S.swift; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E81C73529EE504E009BB58B /* FloatplaneApp-Models in Frameworks */,
+				5EBA28202A15DA5600F673BC /* Kenmore-Models in Frameworks */,
 				5EFD929529D90CA0007E8374 /* Logging in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E389C1429D8B67900FC8B4B /* FloatplaneApp_Utilities.framework in Frameworks */,
+				5E389C1429D8B67900FC8B4B /* Kenmore_Utilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,8 +93,8 @@
 		5E389C0A29D8B67900FC8B4B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E389C0929D8B67900FC8B4B /* FloatplaneApp_Utilities.framework */,
-				5E389C1329D8B67900FC8B4B /* FloatplaneApp-UtilitiesTests.xctest */,
+				5E389C0929D8B67900FC8B4B /* Kenmore_Utilities.framework */,
+				5E389C1329D8B67900FC8B4B /* Kenmore-UtilitiesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,9 +169,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5E389C0829D8B67900FC8B4B /* FloatplaneApp-Utilities */ = {
+		5E389C0829D8B67900FC8B4B /* Kenmore-Utilities */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E389C1D29D8B67900FC8B4B /* Build configuration list for PBXNativeTarget "FloatplaneApp-Utilities" */;
+			buildConfigurationList = 5E389C1D29D8B67900FC8B4B /* Build configuration list for PBXNativeTarget "Kenmore-Utilities" */;
 			buildPhases = (
 				5E389C0429D8B67900FC8B4B /* Headers */,
 				5E389C0529D8B67900FC8B4B /* Sources */,
@@ -182,18 +182,18 @@
 			);
 			dependencies = (
 			);
-			name = "FloatplaneApp-Utilities";
+			name = "Kenmore-Utilities";
 			packageProductDependencies = (
 				5EFD929429D90CA0007E8374 /* Logging */,
-				5E81C73429EE504E009BB58B /* FloatplaneApp-Models */,
+				5EBA281F2A15DA5600F673BC /* Kenmore-Models */,
 			);
 			productName = FloatplaneAppUtilities;
-			productReference = 5E389C0929D8B67900FC8B4B /* FloatplaneApp_Utilities.framework */;
+			productReference = 5E389C0929D8B67900FC8B4B /* Kenmore_Utilities.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5E389C1229D8B67900FC8B4B /* FloatplaneApp-UtilitiesTests */ = {
+		5E389C1229D8B67900FC8B4B /* Kenmore-UtilitiesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E389C2029D8B67900FC8B4B /* Build configuration list for PBXNativeTarget "FloatplaneApp-UtilitiesTests" */;
+			buildConfigurationList = 5E389C2029D8B67900FC8B4B /* Build configuration list for PBXNativeTarget "Kenmore-UtilitiesTests" */;
 			buildPhases = (
 				5E389C0F29D8B67900FC8B4B /* Sources */,
 				5E389C1029D8B67900FC8B4B /* Frameworks */,
@@ -204,9 +204,9 @@
 			dependencies = (
 				5E389C1629D8B67900FC8B4B /* PBXTargetDependency */,
 			);
-			name = "FloatplaneApp-UtilitiesTests";
+			name = "Kenmore-UtilitiesTests";
 			productName = FloatplaneAppUtilitiesTests;
-			productReference = 5E389C1329D8B67900FC8B4B /* FloatplaneApp-UtilitiesTests.xctest */;
+			productReference = 5E389C1329D8B67900FC8B4B /* Kenmore-UtilitiesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -228,7 +228,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5E389C0329D8B67900FC8B4B /* Build configuration list for PBXProject "FloatplaneApp-Utilities" */;
+			buildConfigurationList = 5E389C0329D8B67900FC8B4B /* Build configuration list for PBXProject "Kenmore-Utilities" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -239,14 +239,14 @@
 			mainGroup = 5E389BFF29D8B67900FC8B4B;
 			packageReferences = (
 				5E389C3C29D8B72500FC8B4B /* XCRemoteSwiftPackageReference "swift-log" */,
-				5E81C73329EE504E009BB58B /* XCRemoteSwiftPackageReference "FloatplaneApp-Models" */,
+				5EBA281E2A15D98F00F673BC /* XCRemoteSwiftPackageReference "Kenmore-Models" */,
 			);
 			productRefGroup = 5E389C0A29D8B67900FC8B4B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5E389C0829D8B67900FC8B4B /* FloatplaneApp-Utilities */,
-				5E389C1229D8B67900FC8B4B /* FloatplaneApp-UtilitiesTests */,
+				5E389C0829D8B67900FC8B4B /* Kenmore-Utilities */,
+				5E389C1229D8B67900FC8B4B /* Kenmore-UtilitiesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -298,7 +298,7 @@
 /* Begin PBXTargetDependency section */
 		5E389C1629D8B67900FC8B4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5E389C0829D8B67900FC8B4B /* FloatplaneApp-Utilities */;
+			target = 5E389C0829D8B67900FC8B4B /* Kenmore-Utilities */;
 			targetProxy = 5E389C1529D8B67900FC8B4B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -569,7 +569,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5E389C0329D8B67900FC8B4B /* Build configuration list for PBXProject "FloatplaneApp-Utilities" */ = {
+		5E389C0329D8B67900FC8B4B /* Build configuration list for PBXProject "Kenmore-Utilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E389C1B29D8B67900FC8B4B /* Debug */,
@@ -578,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E389C1D29D8B67900FC8B4B /* Build configuration list for PBXNativeTarget "FloatplaneApp-Utilities" */ = {
+		5E389C1D29D8B67900FC8B4B /* Build configuration list for PBXNativeTarget "Kenmore-Utilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E389C1E29D8B67900FC8B4B /* Debug */,
@@ -587,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E389C2029D8B67900FC8B4B /* Build configuration list for PBXNativeTarget "FloatplaneApp-UtilitiesTests" */ = {
+		5E389C2029D8B67900FC8B4B /* Build configuration list for PBXNativeTarget "Kenmore-UtilitiesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E389C2129D8B67900FC8B4B /* Debug */,
@@ -607,9 +607,9 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		5E81C73329EE504E009BB58B /* XCRemoteSwiftPackageReference "FloatplaneApp-Models" */ = {
+		5EBA281E2A15D98F00F673BC /* XCRemoteSwiftPackageReference "Kenmore-Models" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:curiousurick/FloatplaneApp-Models.git";
+			repositoryURL = "git@github.com:curiousurick/Kenmore-Models.git";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -618,10 +618,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5E81C73429EE504E009BB58B /* FloatplaneApp-Models */ = {
+		5EBA281F2A15DA5600F673BC /* Kenmore-Models */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5E81C73329EE504E009BB58B /* XCRemoteSwiftPackageReference "FloatplaneApp-Models" */;
-			productName = "FloatplaneApp-Models";
+			package = 5EBA281E2A15D98F00F673BC /* XCRemoteSwiftPackageReference "Kenmore-Models" */;
+			productName = "Kenmore-Models";
 		};
 		5EFD929429D90CA0007E8374 /* Logging */ = {
 			isa = XCSwiftPackageProductDependency;

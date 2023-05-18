@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5E389C0829D8B67900FC8B4B"
-               BuildableName = "FloatplaneApp_Utilities.framework"
-               BlueprintName = "FloatplaneApp-Utilities"
-               ReferencedContainer = "container:FloatplaneApp-Utilities.xcodeproj">
+               BuildableName = "Kenmore_Utilities.framework"
+               BlueprintName = "Kenmore-Utilities"
+               ReferencedContainer = "container:Kenmore-Utilities.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5E389C0829D8B67900FC8B4B"
-            BuildableName = "FloatplaneApp_Utilities.framework"
-            BlueprintName = "FloatplaneApp-Utilities"
-            ReferencedContainer = "container:FloatplaneApp-Utilities.xcodeproj">
+            BuildableName = "Kenmore_Utilities.framework"
+            BlueprintName = "Kenmore-Utilities"
+            ReferencedContainer = "container:Kenmore-Utilities.xcodeproj">
          </BuildableReference>
       </CodeCoverageTargets>
       <Testables>
@@ -45,9 +45,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5E389C1229D8B67900FC8B4B"
-               BuildableName = "FloatplaneApp-UtilitiesTests.xctest"
-               BlueprintName = "FloatplaneApp-UtilitiesTests"
-               ReferencedContainer = "container:FloatplaneApp-Utilities.xcodeproj">
+               BuildableName = "Kenmore-UtilitiesTests.xctest"
+               BlueprintName = "Kenmore-UtilitiesTests"
+               ReferencedContainer = "container:Kenmore-Utilities.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -73,9 +73,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5E389C0829D8B67900FC8B4B"
-            BuildableName = "FloatplaneApp_Utilities.framework"
-            BlueprintName = "FloatplaneApp-Utilities"
-            ReferencedContainer = "container:FloatplaneApp-Utilities.xcodeproj">
+            BuildableName = "Kenmore_Utilities.framework"
+            BlueprintName = "Kenmore-Utilities"
+            ReferencedContainer = "container:Kenmore-Utilities.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

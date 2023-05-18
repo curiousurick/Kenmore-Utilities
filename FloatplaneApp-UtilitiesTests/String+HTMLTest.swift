@@ -25,7 +25,7 @@
     import UIKit
 #endif
 import XCTest
-@testable import FloatplaneApp_Utilities
+@testable import Kenmore_Utilities
 
 final class StringHTMLTest: XCTestCase {
     let htmlDescription =
