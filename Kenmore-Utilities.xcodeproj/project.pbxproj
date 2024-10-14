@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5E1FD71729DAB0100015AE6F /* String+ClassTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FD71629DAB0100015AE6F /* String+ClassTest.swift */; };
 		5E1FD71E29DAB6B00015AE6F /* String+HTMLTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FD71D29DAB6B00015AE6F /* String+HTMLTest.swift */; };
+		5E22605D2C19364900DB07D3 /* Kenmore_Models.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E22605C2C19364900DB07D3 /* Kenmore_Models.framework */; };
 		5E389C0E29D8B67900FC8B4B /* Kenmore-Utilities.docc in Resources */ = {isa = PBXBuildFile; fileRef = 5E389C0D29D8B67900FC8B4B /* Kenmore-Utilities.docc */; };
 		5E389C1429D8B67900FC8B4B /* Kenmore_Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E389C0929D8B67900FC8B4B /* Kenmore_Utilities.framework */; };
 		5E389C3229D8B6AB00FC8B4B /* String+HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E389C2F29D8B68A00FC8B4B /* String+HTML.swift */; };
@@ -18,7 +19,6 @@
 		5E7711B829E15D87002E1883 /* StreamURLFactoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7711B729E15D87002E1883 /* StreamURLFactoryTest.swift */; };
 		5E7711BA29E15FA7002E1883 /* TestModelSupplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7711B929E15FA7002E1883 /* TestModelSupplier.swift */; };
 		5E8C140029E3EF130084F20D /* Log4STest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8C13FF29E3EF130084F20D /* Log4STest.swift */; };
-		5EBA28202A15DA5600F673BC /* Kenmore-Models in Frameworks */ = {isa = PBXBuildFile; productRef = 5EBA281F2A15DA5600F673BC /* Kenmore-Models */; };
 		5EFD929529D90CA0007E8374 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = 5EFD929429D90CA0007E8374 /* Logging */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +36,7 @@
 		5E08F49429E1355D003C3694 /* FloatplaneApp_Models.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FloatplaneApp_Models.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1FD71629DAB0100015AE6F /* String+ClassTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ClassTest.swift"; sourceTree = "<group>"; };
 		5E1FD71D29DAB6B00015AE6F /* String+HTMLTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+HTMLTest.swift"; sourceTree = "<group>"; };
+		5E22605C2C19364900DB07D3 /* Kenmore_Models.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kenmore_Models.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E389C0929D8B67900FC8B4B /* Kenmore_Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kenmore_Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E389C0D29D8B67900FC8B4B /* Kenmore-Utilities.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = "Kenmore-Utilities.docc"; sourceTree = "<group>"; };
 		5E389C1329D8B67900FC8B4B /* Kenmore-UtilitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kenmore-UtilitiesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EBA28202A15DA5600F673BC /* Kenmore-Models in Frameworks */,
+				5E22605D2C19364900DB07D3 /* Kenmore_Models.framework in Frameworks */,
 				5EFD929529D90CA0007E8374 /* Logging in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +147,7 @@
 		5EFD929329D90CA0007E8374 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5E22605C2C19364900DB07D3 /* Kenmore_Models.framework */,
 				5EF5D9E429E16AFB00785396 /* FloatplaneApp_Models.framework */,
 				5EF5D9E229E16AEE00785396 /* FloatplaneApp_Models.framework */,
 				5E44E6DE29E16A3700DACC58 /* FloatplaneApp_Models.framework */,
@@ -185,7 +187,6 @@
 			name = "Kenmore-Utilities";
 			packageProductDependencies = (
 				5EFD929429D90CA0007E8374 /* Logging */,
-				5EBA281F2A15DA5600F673BC /* Kenmore-Models */,
 			);
 			productName = FloatplaneAppUtilities;
 			productReference = 5E389C0929D8B67900FC8B4B /* Kenmore_Utilities.framework */;
@@ -217,7 +218,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					5E389C0829D8B67900FC8B4B = {
 						CreatedOnToolsVersion = 14.2;
@@ -342,6 +343,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -405,6 +407,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -510,7 +513,6 @@
 		5E389C2129D8B67900FC8B4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -540,7 +542,6 @@
 		5E389C2229D8B67900FC8B4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -618,11 +619,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5EBA281F2A15DA5600F673BC /* Kenmore-Models */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5EBA281E2A15D98F00F673BC /* XCRemoteSwiftPackageReference "Kenmore-Models" */;
-			productName = "Kenmore-Models";
-		};
 		5EFD929429D90CA0007E8374 /* Logging */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 5E389C3C29D8B72500FC8B4B /* XCRemoteSwiftPackageReference "swift-log" */;
