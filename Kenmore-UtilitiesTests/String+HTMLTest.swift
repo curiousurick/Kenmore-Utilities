@@ -30,14 +30,14 @@ import XCTest
 final class StringHTMLTest: XCTestCase {
     let htmlDescription =
         "<p>Linus has made some big mistakes. Buying a potato farm and making the best farming content on YouTube will definitely not be like those other things that didn\'t pan out though</p><p><br /></p><p>Get your Uncle Linus hoodie, Uncle Linus Potato Moonshine bottle and Potato \"NFTs\" at www.lttstore.com it\'s a website</p>"
-    let strippedDescription =
-        "Linus has made some big mistakes. Buying a potato farm and making the best farming content on YouTube will definitely not be like those other things that didn\'t pan out though\n \nGet your Uncle Linus hoodie, Uncle Linus Potato Moonshine bottle and Potato \"NFTs\" at www.lttstore.com it\'s a website\n"
+    let strippedDescription = "Linus has made some big mistakes. Buying a potato farm and making the best farming content on YouTube will definitely not be like those other things that didn't pan out though\n\nGet your Uncle Linus hoodie, Uncle Linus Potato Moonshine bottle and Potato \"NFTs\" at www.lttstore.com it\'s a website\n"
 
     func testHtmlString() {
         // Act
         let result = htmlDescription.html2String
 
         // Assert
+        print(result)
         XCTAssertEqual(result, strippedDescription)
     }
 
